@@ -12,3 +12,5 @@ framework of your choice, including but not limited to :
 Make sure your project directory contains the Model, View and Controller subdirectories. In
 case of some frameworks like Spring, you’ll also have to include an extra Service class that
 handles business logic.
+
+changes to be made in application.properties file to run this application.
