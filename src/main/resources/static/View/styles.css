@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #00FFFF, #ffffff);
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #8E44AD; /* Purple color for the movies title */
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #27AE60; /* Green color for the save button */
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #219653; /* Darker green color on hover */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00FFFF;
+}
+
+
+form {
+    margin-bottom: 20px;
+    text-align: center; /* Center align all child elements */
+}
+
+form input {
+    margin: 5px auto; /* Add margin to input elements to space them out */
+    display: block; /* Display inputs as block elements for center alignment */
+}
